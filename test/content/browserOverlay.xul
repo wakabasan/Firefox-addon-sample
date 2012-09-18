@@ -7,7 +7,7 @@
 <!DOCTYPE overlay SYSTEM
   "chrome://xulschoolhello/locale/browserOverlay.dtd">
  
-<overlay id="rightclicksample-browser-overlay"
+<overlay id="test-overlay"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
  
   <script type="application/x-javascript"
