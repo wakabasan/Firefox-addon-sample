@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+ 
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://xulschoolhello/skin/browserOverlay.css" ?>
+ 
+<!DOCTYPE overlay SYSTEM
+  "chrome://xulschoolhello/locale/browserOverlay.dtd">
+ 
+<overlay id="rightclicksample-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+  <script type="application/x-javascript"
+    src="chrome://test/content/browserOverlay.js" />
+ 
+  <popup id="contentAreaContextMenu">
+    <menuitem id="test" label="test"
+              insertafter="context-bookmarkpage" oncommand="invokeAlert();"/>
+  </popup>
+</overlay>
