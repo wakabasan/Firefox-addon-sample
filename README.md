@@ -1,25 +1,21 @@
 Addonの作り方
 ==================
 まずはAddon専用のディレクトリを作成する
+    
     mkdir test
-
 
 testの中に以下３つのディレクトリを作成する。
 
-+content
-+skin
-+locale
++   content
++   skin
++   locale
 
-
+###
     test$ mkdir content skin locale
-
 
 install.rdfファイルをトップディレクトリの直下に作成する。
 
-
     test$ touch install.rdf
-    
-
 
     <?xml version="1.0"?>
  
@@ -59,8 +55,6 @@ chrome.manifestを作成する。
 content/直下にbrowserOverlay.jsを作成する。
 
     content$touch browserOverlay.js
-
-
 
     /**
       * XULSchoolChrome namespace.
